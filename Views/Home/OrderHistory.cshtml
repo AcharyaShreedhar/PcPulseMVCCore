@@ -1,0 +1,83 @@
+﻿<!--
+Topic Name: Electronics Store
+Project Name: PcPulse
+Group Name: SoftByte
+Group Members:
+    Shree Dhar Acharya: 8899288
+    Karamjot Singh: 8869324
+    Prashant Sahu: 8877584
+    Jovan Sandhu: 8873660
+
+Description:
+- This page displays the order history of the PcPulse Online Store.
+- It provides details such as customer name, contact information, order details, product information, and order status.
+- The table includes columns for the customer's name, mobile number, address, order number, order date, product name, product picture, quantity, total amount, and order status.
+- If no orders are found in the history, a message "Not Found" is displayed.
+
+-->
+@model IEnumerable<PcPulse.ViewModel.OrderViewModel>
+@{
+    ViewData["Title"] = "OrderHistory";
+}
+<div>
+    <h4 class="text-center">Order History</h4>
+</div>
+<div class="content-wrap mt-5">
+    <div class="mb-4">
+        <div class="table-responsive">
+            <table class="table table-responsive">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Order No.</th>
+                        <th>Name</th>
+                        <th>Mobile No.</th>
+                        <th>Adress</th>
+                        <th>Date</th>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                        <th>Order Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.Any())
+                    {
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td><img src="~/ProductImage/@item.productPicture" style="height:60px; width:60px" /></td>
+                                <td><b>@item.OrderNumber</b> </td>
+                                <td>@(item.FirstName + " " + item.LastName)</td>
+                                <td>@item.MobileNumber</td>
+                                <td>@item.Address</td>
+                                <td>@item.OrderDate</td>
+                                <td>@item.productName</td>
+                                <td>@item.productQuantity</td>
+                                <td>$@item.Total.ToString("0.00")</td>
+                                <td>
+                                    @item.OrderStatus
+                                </td>
+                            </tr>
+
+                        }
+
+                    }
+                    else
+                    {
+                        <tr>
+                            <td rowspan="10">Not Found</td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />

@@ -1,0 +1,26 @@
+﻿@*
+Topic Name: Electronics Store
+Project Name: PcPulse
+Group Name: SoftByte
+Group Members:
+    Shree Dhar Acharya: 8899288
+    Karamjot Singh: 8869324
+    Prashant Sahu: 8877584
+    Jovan Sandhu: 8873660
+
+Description:
+- This Razor view component is responsible for displaying status messages to the user.
+- It dynamically sets the alert class based on the message type (error or success).
+*@
+
+@model string
+
+@if (!String.IsNullOrEmpty(Model))
+{
+    var statusMessageClass = Model.StartsWith("Error") ? "danger" : "success";
+    <div class="alert alert-@statusMessageClass alert-dismissible text-center" role="alert">
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        @Model
+    </div>
+}
+ 

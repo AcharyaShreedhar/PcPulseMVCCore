@@ -1,0 +1,114 @@
+﻿<!--
+Topic Name: Electronics Store
+Project Name: PcPulse
+Group Name: SoftByte
+Group Members:
+    Shree Dhar Acharya: 8899288
+    Karamjot Singh: 8869324
+    Prashant Sahu: 8877584
+    Jovan Sandhu: 8873660
+
+Description:
+- This page allows administrators to manage users in the Electronics Store application.
+- It displays a list of users with their first name, last name, email, and role.
+- Admins can delete users directly from this page by clicking the "Delete" button next to each user entry.
+-->
+@model IEnumerable<PcPulse.ViewModel.UserViewModel>
+@{
+    ViewData["Title"] = "Manageuser";
+}
+<div>
+    <h4 class="text-center">User List</h4>
+</div>
+<div class="content-wrap mt-5">
+    <div class="mb-4">
+        <div class="table-responsive">
+            <table class="table table-responsive ">
+                <thead>
+                    <tr class="table-info">
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Email</th>
+                        <th>Role</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+
+                            <td>@item.FirstName</td>
+                            <td>@item.LastName</td>
+                            <td>@item.Email</td>
+                            <td>@item.UserRole</td>
+                            <td>
+                                <a class="btn btn-sm btn-danger" href="javascript:void(0)" onclick="confirmDelete('@item.userId')">Disable User </a>
+                            </td>
+
+                        </tr>
+
+                    }
+
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>
+@section Scripts {
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script>
+        function confirmDelete(id) {
+            swal({
+                title: "Are you sure?",
+                text: "You want to Disable this User",
+                type: "warning",
+                buttons: true,
+                dangerMode: true,
+            }).then((willDelete) => {
+                if (willDelete) {
+                    deleteUser(id);
+                } else {
+                    swal("Your imaginary file is safe!");
+                }
+            });
+        }
+
+        function deleteUser(id) {
+            $.ajax({
+                url: "/Dashboard/DeleteUser",
+                type: "POST",
+                data: {
+                    id: id
+                },
+                dataType: "json",
+                success: function (response) {
+                    if (response.success) {
+                        swal("Done!", "It was successfully disabled!", "success").then(() => {
+                            window.location.href = '../Dashboard/Manageuser';
+                        });
+                    } else {
+                        swal("Error disabling!", response.message, "error");
+                    }
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    swal("Error disabling!", "Please try again", "error");
+                }
+            });
+        }
+
+
+
+    </script>
+}
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />

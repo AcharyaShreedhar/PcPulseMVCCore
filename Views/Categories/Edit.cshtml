@@ -1,0 +1,56 @@
+﻿<!--
+Topic Name: Electronics Store
+Project Name: PcPulse
+Group Name: SoftByte
+Group Members:
+    Shree Dhar Acharya: 8899288
+    Karamjot Singh: 8869324
+    Prashant Sahu: 8877584
+    Jovan Sandhu: 8873660
+
+Description:
+- This page allows users to edit an existing category in the Electronics Store application.
+- Users can modify the short name and long name of the category.
+- Upon submission, the form data is sent to the server for processing and updating the category in the database.
+-->
+@model PcPulse.Models.Category
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="content-wrap">
+    <div class="row p-0">
+        <div class="card p-0">
+            <div class="card-header">
+                <h3 class="secondary-heading mb-3 text-center">Edit Category</h3>
+            </div>
+            <div class="card-body">
+                <form asp-action="Edit">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <input type="hidden" asp-for="Id" />
+                    <div class="form-group mt-2">
+                        <label asp-for="ShortName" class="control-label mb-2">Short Name :</label>
+                        <input asp-for="ShortName" class="form-control" />
+                        <span asp-validation-for="ShortName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mt-2">
+                        <label asp-for="LongName" class="control-label mb-2">Long Name :</label>
+                        <input asp-for="LongName" class="form-control" />
+                        <span asp-validation-for="LongName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mt-3">
+                        <input type="submit" value="Update" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<br />
+<br />
+<br />
+
+
+
+

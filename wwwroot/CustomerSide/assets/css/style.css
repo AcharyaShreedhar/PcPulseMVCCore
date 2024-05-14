@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.header {
+    background-color: dodgerblue;
+}
+
+.pcpulse-nav li a {
+    color: white !important;
+    font-size: 20px;
+    font-weight: 600 !important;
+}
+
+.content {
+    background-color: #eeeeee;
+    padding: 50px;
+}
+
+.content-wrap {
+    padding: 20px 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.PC-banner {
+    background-image: url('../media/images/banner-img.png');
+    height: 400px;
+}
+
+.banner-heading {
+    font-size: 50px;
+    color: white;
+}
+
+.banner-p {
+    color: white;
+    font-weight: 600;
+    margin: 0;
+}
+
+.PC-banner-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.main-heading {
+    font-size: 40px;
+}
+
+.carosul-banner {
+    background-color: #7a7a7a;
+}
+
+.footer {
+    background-color: #add9e6;
+    padding: 20px;
+}
+
+.copyright-p {
+    margin: 0;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.foooter-p {
+    font-weight: 500;
+    margin: 0;
+}
+
+    .foooter-p span {
+        font-weight: 400;
+    }
+
+.product-name {
+    color: dodgerblue;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.p-des {
+    margin: 0;
+    color: dodgerblue;
+    margin-bottom: 5px;
+}
+
+.price-p {
+    color: dodgerblue;
+    font-weight: 600;
+}
+
+    .price-p span {
+        font-weight: 400;
+    }
+
+.card-button {
+    background-color: dodgerblue !important;
+    color: white !important;
+}
+
+.detail-price-p {
+    font-weight: 700;
+}
+
+    .detail-price-p span {
+        font-weight: 400;
+    }
+
+.table-links {
+    color: black;
+    text-decoration: none;
+}
+
+.cart-product {
+    display: flex;
+    align-items: start;
+    gap: 10px;
+}
+
+.billing-div {
+    background-color: #eeeeee;
+    padding: 10px;
+    border-left: 2px solid dodgerblue;
+}
+
+.billing-table tr td,
+.billing-table tr th {
+    background-color: transparent;
+}
+
+.billing-table tr td {
+    text-align: end;
+}

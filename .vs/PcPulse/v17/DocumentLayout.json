@@ -1,0 +1,972 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\views\\home\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:views\\home\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\views\\dashboard\\manageuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:views\\dashboard\\manageuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\views\\dashboard\\pendingorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:views\\dashboard\\pendingorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\views\\dashboard\\deliverorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:views\\dashboard\\deliverorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\views\\dashboard\\dashboardindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:views\\dashboard\\dashboardindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\views\\home\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:views\\home\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\areas\\identity\\pages\\account\\_statusmessage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:areas\\identity\\pages\\account\\_statusmessage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\areas\\identity\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:areas\\identity\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\wwwroot\\customerside\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:wwwroot\\customerside\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\views\\home\\productdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:views\\home\\productdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\views\\home\\orderhistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:views\\home\\orderhistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\views\\home\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:views\\home\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\viewmodel\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:viewmodel\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\viewmodel\\productitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:viewmodel\\productitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\viewmodel\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:viewmodel\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\sessionhelper\\sessionexc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:sessionhelper\\sessionexc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\areas\\identity\\data\\pcpulsedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:areas\\identity\\data\\pcpulsedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\areas\\identity\\data\\contextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:areas\\identity\\data\\contextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\areas\\identity\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:areas\\identity\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\areas\\identity\\pages\\error.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:areas\\identity\\pages\\error.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|c:\\users\\sidha_xrphf1j\\onedrive\\desktop\\new\\pcpulse\\pcpulse\\migrations\\20240414211521_pcpulsemigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E304103A-AECA-489F-BF52-4ADD9AF0BC80}|PcPulse.csproj|solutionrelative:migrations\\20240414211521_pcpulsemigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\Shree\\PcPulse\\PcPulse\\Migrations\\20240414135909_PcPulseMigr..Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\Shree\\PcPulse\\PcPulse\\Migrations\\ApplicationDbContextModelSnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\Shree\\PcPulse\\PcPulse\\Migrations\\20240414135909_PcPulseMigr..cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Manageuser.cshtml",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\Dashboard\\Manageuser.cshtml",
+              "RelativeDocumentMoniker": "Views\\Dashboard\\Manageuser.cshtml",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\Dashboard\\Manageuser.cshtml",
+              "RelativeToolTip": "Views\\Dashboard\\Manageuser.cshtml",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAFkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T15:16:12.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DashboardIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\Dashboard\\DashboardIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\Dashboard\\DashboardIndex.cshtml",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\Dashboard\\DashboardIndex.cshtml",
+              "RelativeToolTip": "Views\\Dashboard\\DashboardIndex.cshtml",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAAAAsAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T15:15:59.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DeliverOrder.cshtml",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\Dashboard\\DeliverOrder.cshtml",
+              "RelativeDocumentMoniker": "Views\\Dashboard\\DeliverOrder.cshtml",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\Dashboard\\DeliverOrder.cshtml",
+              "RelativeToolTip": "Views\\Dashboard\\DeliverOrder.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAEEAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T15:16:04.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PendingOrder.cshtml",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\Dashboard\\PendingOrder.cshtml",
+              "RelativeDocumentMoniker": "Views\\Dashboard\\PendingOrder.cshtml",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\Dashboard\\PendingOrder.cshtml",
+              "RelativeToolTip": "Views\\Dashboard\\PendingOrder.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEAAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T15:16:18.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cshtml",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\Home\\Product.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Product.cshtml",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\Home\\Product.cshtml",
+              "RelativeToolTip": "Views\\Home\\Product.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAACkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T15:17:06.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Categories\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "Views\\Categories\\Index.cshtml",
+              "ViewState": "AQIAACUAAAAAAAAAAADwvzYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T15:15:50.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "Views\\Products\\Index.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAFMAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T15:18:24.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAADwv0oAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T15:14:33.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CheckOut.cshtml",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\Home\\CheckOut.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\CheckOut.cshtml",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\Home\\CheckOut.cshtml",
+              "RelativeToolTip": "Views\\Home\\CheckOut.cshtml",
+              "ViewState": "AQIAAK4AAAAAAAAAAAAAAK4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T15:16:44.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T15:18:56.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAgwJoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T15:13:35.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Controllers\\DashboardController.cs",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAAAEQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T15:12:44.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T15:09:45.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAIIAAAAAAAAAAAAAACgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T15:12:38.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAOEAAAAAAAAAAAAUwDkBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T15:13:13.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T15:18:59.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACQAAACZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T15:18:45.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAH4AAAAAAAAAAAAAAD8AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T15:18:37.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T15:19:21.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T15:19:02.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAABwAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T15:12:03.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T15:09:02.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_StatusMessage.cshtml",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Areas\\Identity\\Pages\\Account\\_StatusMessage.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\_StatusMessage.cshtml",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Areas\\Identity\\Pages\\Account\\_StatusMessage.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\_StatusMessage.cshtml",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAcwBQAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T15:08:48.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAswFsAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T15:22:53.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T15:12:17.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T15:12:12.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Areas\\Identity\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Error.cshtml",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Areas\\Identity\\Pages\\Error.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T15:12:33.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAAKEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T21:27:46.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T15:12:31.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T15:12:09.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\wwwroot\\CustomerSide\\assets\\css\\style.css",
+              "RelativeDocumentMoniker": "wwwroot\\CustomerSide\\assets\\css\\style.css",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\wwwroot\\CustomerSide\\assets\\css\\style.css",
+              "RelativeToolTip": "wwwroot\\CustomerSide\\assets\\css\\style.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHkAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-14T21:19:11.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-14T21:19:00.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "20240414211521_PcPulseMigration.cs",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Migrations\\20240414211521_PcPulseMigration.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240414211521_PcPulseMigration.cs",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Migrations\\20240414211521_PcPulseMigration.cs",
+              "RelativeToolTip": "Migrations\\20240414211521_PcPulseMigration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T21:15:21.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-14T17:02:42.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAABoAAAAAAAAAAADwvyEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T15:16:54.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ProductDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\Home\\ProductDetails.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\ProductDetails.cshtml",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\Home\\ProductDetails.cshtml",
+              "RelativeToolTip": "Views\\Home\\ProductDetails.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAIBJwBIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T15:17:40.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\Categories\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Categories\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\Categories\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Categories\\Edit.cshtml",
+              "ViewState": "AQIAABQAAAAAAAAAAADwvyMAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T15:15:45.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\Categories\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Categories\\Create.cshtml",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\Categories\\Create.cshtml",
+              "RelativeToolTip": "Views\\Categories\\Create.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAADwvx8AAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T15:15:36.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\Products\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\Products\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Products\\Edit.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAIBJwEUAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T15:18:17.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Create.cshtml",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "Views\\Products\\Create.cshtml",
+              "ViewState": "AQIAAA0AAAAAAAAAAADwvygAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T15:18:08.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Cart.cshtml",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\Home\\Cart.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Cart.cshtml",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\Home\\Cart.cshtml",
+              "RelativeToolTip": "Views\\Home\\Cart.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAIBJwCYAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T15:16:29.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "OrderHistory.cshtml",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\Home\\OrderHistory.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\OrderHistory.cshtml",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Views\\Home\\OrderHistory.cshtml",
+              "RelativeToolTip": "Views\\Home\\OrderHistory.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAIBJwEcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T15:16:59.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "SessionExc.cs",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\SessionHelper\\SessionExc.cs",
+              "RelativeDocumentMoniker": "SessionHelper\\SessionExc.cs",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\SessionHelper\\SessionExc.cs",
+              "RelativeToolTip": "SessionHelper\\SessionExc.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAowCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T15:14:56.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "UserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\ViewModel\\UserViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\UserViewModel.cs",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\ViewModel\\UserViewModel.cs",
+              "RelativeToolTip": "ViewModel\\UserViewModel.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAYwBUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T15:15:25.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ProductItem.cs",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\ViewModel\\ProductItem.cs",
+              "RelativeDocumentMoniker": "ViewModel\\ProductItem.cs",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\ViewModel\\ProductItem.cs",
+              "RelativeToolTip": "ViewModel\\ProductItem.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAkwBwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T15:15:16.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "OrderViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\ViewModel\\OrderViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\OrderViewModel.cs",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\ViewModel\\OrderViewModel.cs",
+              "RelativeToolTip": "ViewModel\\OrderViewModel.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBcAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T15:15:08.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAxwC4AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T15:14:45.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "Models\\OrderDetail.cs",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "Models\\OrderDetail.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAQwB4AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T15:14:39.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAowBQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T15:14:27.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAkwBwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T15:14:21.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "PcPulseDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Areas\\Identity\\Data\\PcPulseDbContext.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Data\\PcPulseDbContext.cs",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Areas\\Identity\\Data\\PcPulseDbContext.cs",
+              "RelativeToolTip": "Areas\\Identity\\Data\\PcPulseDbContext.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAA5wCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T15:08:33.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ContextSeed.cs",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Areas\\Identity\\Data\\ContextSeed.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Data\\ContextSeed.cs",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Areas\\Identity\\Data\\ContextSeed.cs",
+              "RelativeToolTip": "Areas\\Identity\\Data\\ContextSeed.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAIBJwCAAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T15:08:31.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Areas\\Identity\\Data\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Data\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Areas\\Identity\\Data\\ApplicationUser.cs",
+              "RelativeToolTip": "Areas\\Identity\\Data\\ApplicationUser.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAIBJwBAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T15:08:27.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAYAAAAAAAAAAABRwBgAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-14T15:33:19.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "20240414135909_PcPulseMigr..Designer.cs",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\Shree\\PcPulse\\PcPulse\\Migrations\\20240414135909_PcPulseMigr..Designer.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Shree\\PcPulse\\PcPulse\\Migrations\\20240414135909_PcPulseMigr..Designer.cs",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\Shree\\PcPulse\\PcPulse\\Migrations\\20240414135909_PcPulseMigr..Designer.cs",
+              "RelativeToolTip": "..\\..\\..\\Shree\\PcPulse\\PcPulse\\Migrations\\20240414135909_PcPulseMigr..Designer.cs",
+              "ViewState": "AQIAALEBAAAAAAAAAAAwwLQBAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T15:31:41.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Error.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Areas\\Identity\\Pages\\Error.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Error.cshtml.cs",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\New\\PcPulse\\PcPulse\\Areas\\Identity\\Pages\\Error.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Error.cshtml.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwAkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T15:33:04.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\Shree\\PcPulse\\PcPulse\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Shree\\PcPulse\\PcPulse\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\Shree\\PcPulse\\PcPulse\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "..\\..\\..\\Shree\\PcPulse\\PcPulse\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAKsBAAAAAAAAAAAwwLEBAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T15:14:07.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "20240414135909_PcPulseMigr..cs",
+              "DocumentMoniker": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\Shree\\PcPulse\\PcPulse\\Migrations\\20240414135909_PcPulseMigr..cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Shree\\PcPulse\\PcPulse\\Migrations\\20240414135909_PcPulseMigr..cs",
+              "ToolTip": "C:\\Users\\sidha_xrphf1j\\OneDrive\\Desktop\\Shree\\PcPulse\\PcPulse\\Migrations\\20240414135909_PcPulseMigr..cs",
+              "RelativeToolTip": "..\\..\\..\\Shree\\PcPulse\\PcPulse\\Migrations\\20240414135909_PcPulseMigr..cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T15:13:53.431Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

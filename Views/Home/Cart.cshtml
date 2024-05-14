@@ -1,0 +1,157 @@
+﻿<!--
+Topic Name: Electronics Store
+Project Name: PcPulse
+Group Name: SoftByte
+Group Members:
+    Shree Dhar Acharya: 8899288
+    Karamjot Singh: 8869324
+    Prashant Sahu: 8877584
+    Jovan Sandhu: 8873660
+
+Description:
+- This page displays the user's cart with a list of products, their quantities, totals, and options to remove items or empty the cart.
+- It calculates the subtotal, discount, and grand total for the items in the cart.
+- Users can proceed to checkout if they are signed in, otherwise, they are prompted to log in first.
+-->
+@model IEnumerable<PcPulse.ViewModel.ProductItem>
+@using Microsoft.AspNetCore.Identity
+@using PcPulse.Areas.Identity.Data
+
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+@{
+    ViewData["Title"] = "Cart";
+
+    decimal totalWithoutAdditionalAmount = Model.Sum(item => item.Product.ProductPrice * item.Quantity);
+    decimal totalWithAdditionalAmount = totalWithoutAdditionalAmount;
+}
+
+<div class="content-wrap">
+    <div class="d-flex align-items-center justify-content-between mb-4">
+        <div>
+            <h3 class="secondary-heading">Product List</h3>
+        </div>
+        <div>
+            <a asp-action="Remove" class="btn btn-sm btn-danger">Empty Cart</a>
+
+        </div>
+    </div>
+    <hr class="mb-5" />
+    <div class="row">
+        <div class="col-md-8">
+            <table class="table" style="vertical-align: middle;">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.Any())
+                    {
+                        @foreach (var item in Model)
+                        {
+                            var total = item.Product.ProductPrice * item.Quantity;
+                            <tr>
+                                <td>
+                                    <div class="cart-product">
+                                        <div style="height: 100px; width: 100px;">
+                                            <img src="~/ProductImage/@item.Product.ProductPicture" class="w-100" alt="">
+                                        </div>
+                                        <div>
+                                            <h5>@item.Product.ProductName</h5>
+                                            <p class="mb-1"><b>Price : </b>$@item.Product.ProductPrice</p>
+                                            <p><b>Quantity : </b>@item.Quantity</p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div style="display: flex; gap: 10px;">
+                                        <a class="min" asp-action="MinusQty" asp-route-id="@item.Product.Id">
+                                            <span class="btn btn-sm card-button">-</span>
+
+                                        </a>
+                                        <input type="text" class="form-control form-control-sm text-center"
+                                               style="width: 60px;" value="@item.Quantity" min="1" readonly>
+                                        <a class="min" asp-action="PlusQty" asp-route-id="@item.Product.Id">
+
+                                            <span class="btn btn-sm card-button">+</span>
+                                        </a>
+                                    </div>
+                                </td>
+                                <td>
+                                    <h6>$@total</h6>
+                                </td>
+                                <td>
+                                    <a class="btn btn-sm btn-danger" asp-action="Remove" asp-route-id="@item.Product.Id">
+                                        <i class="bi bi-trash">Remove</i>
+                                    </a>
+
+
+                                </td>
+                            </tr>
+                        }
+
+                    }
+                    else
+                    {
+                        <tr>
+                            <th colspan="4" class="text-center"> Your Cart is Empty <a asp-action="Product" class="btn btn-sm btn-primary m-lg-3">Continue shopping </a></th>
+                        </tr>
+                    }
+
+
+
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-4">
+            <div class="billing-div">
+                <h4>Billing</h4>
+                <table class="table table-sm billing-table">
+                    <tr>
+                        <th>Subtotal : </th>
+                        <td>$@totalWithAdditionalAmount</td>
+                    </tr>
+                    <tr>
+                        <th>Discount : </th>
+                        <td>$0.00</td>
+                    </tr>
+                    <tr>
+                        <th>Grand Total : </th>
+                        <td>$@totalWithAdditionalAmount</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="mt-5">
+                @if (SignInManager.IsSignedIn(User))
+                {
+                    if (totalWithAdditionalAmount > 0)
+                    {
+                        <a class="btn btn-primary" asp-action="CheckOut" style="float:right;">Check out</a>
+                    }
+                    else
+                    {
+                        <p class="text-danger">Your Cart is Empty</p>
+                    }
+
+                }
+                else
+                {
+                    <p class="text-danger">You need to login inorder to buy the product</p>
+                }
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<br />
+<br />
+<br />
+<br />
+<br />

@@ -1,0 +1,96 @@
+﻿<!--
+Topic Name: Electronics Store
+Project Name: PcPulse
+Group Name: SoftByte
+Group Members:
+    Shree Dhar Acharya: 8899288
+    Karamjot Singh: 8869324
+    Prashant Sahu: 8877584
+    Jovan Sandhu: 8873660
+
+Description:
+- This page displays a list of products available in the PcPulse Online Store.
+- Users can filter products by category using a dropdown menu.
+- Each product card includes an image, name, category, and price.
+- If the user is signed in, they can click on the "Product Details" button to view more information about the product. Otherwise, a message prompts them to log in.
+- If no products are available, a message "No Product available" is displayed.
+-->
+@model IEnumerable<PcPulse.Models.Product>
+@using Microsoft.AspNetCore.Identity
+@using PcPulse.Areas.Identity.Data
+
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+@{
+    ViewData["Title"] = "Product";
+}
+
+<div class="content-wrap">
+    <div class="d-flex align-items-center justify-content-between">
+        <div>
+            <h3 class="secondary-heading">Product List</h3>
+        </div>
+        <div class="d-inline-flex">
+            <span class="mr-3">Filter Products by Category  :</span>
+            <form id="categoryForm" action="/Home/Product" method="post">
+                <select id="categorySelect" name="categoryId" class="form-select form-select-sm" asp-items="ViewBag.Category" style="width: 250px;">
+                    <option value="NotSelect">Please Select Category</option>
+                </select>
+            </form>
+        </div>
+    </div>
+    <hr class="mb-2" />
+    <div class="row">
+        @if (Model.Any())
+        {
+            @foreach (var item in Model)
+            {
+                <div class="col-md-3">
+                    <div class="card p-3 mb-3">
+                        <img src="~/ProductImage/@item.ProductPicture" class="w-100" alt="">
+                        <h5 class="product-name">@item.ProductName</h5>
+                        <p class="price-p">Category: <span>@item.Category.LongName</span>  </p>
+                        <p class="price-p">Price : <span>$@item.ProductPrice</span></p>
+                        @if (SignInManager.IsSignedIn(User))
+                        {
+                            <div class="d-flex justify-content-between">
+                                <a class="btn btn-sm btn-success" asp-action="AddToCart" asp-route-id="@item.Id">Add to Cart</a>
+                                <a asp-action="ProductDetails" asp-route-id="@item.Id" class="btn btn-sm btn-primary">View Details</a>
+                            </div>
+                        }
+                        else
+                        {
+                            <p class="text-danger">You need to Login inorder to buy the product</p>
+
+                        }
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <p class="text-center">No Product available </p>
+        }
+
+
+
+    </div>
+</div>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var categorySelect = document.getElementById("categorySelect");
+        categorySelect.addEventListener("change", function () {
+            document.getElementById("categoryForm").submit();
+        });
+    });
+</script>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />

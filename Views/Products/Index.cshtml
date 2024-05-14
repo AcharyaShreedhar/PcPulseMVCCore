@@ -1,0 +1,150 @@
+﻿<!--
+Topic Name: Electronics Store
+Project Name: PcPulse
+Group Name: SoftByte
+Group Members:
+    Shree Dhar Acharya: 8899288
+    Karamjot Singh: 8869324
+    Prashant Sahu: 8877584
+    Jovan Sandhu: 8873660
+
+Description:
+- This page displays a list of products in the PcPulse Online Store.
+- Users can view the product image, name, price, description, category, and quantity.
+- Users can also add new products, edit existing products, and delete products.
+-->
+@model IEnumerable<PcPulse.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<div>
+    <h4 class="text-center">List Of Products</h4>
+</div>
+<div class="content-wrap mt-5">
+    <div class="mb-4">
+        <div class="d-flex justify-content-between">
+            <h3 class="secondary-heading mb-3" style="float: left">List Of Products</h3>
+            <a asp-action="Create" style="float: right;" class="btn btn-primary btn-sm p-3">Add New Product</a>
+        </div>
+        <hr class="mb-5" />
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>
+                        Image
+                    </th>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Price
+                    </th>
+                    <th>
+                        Description
+                    </th>
+
+                    <th>
+                        Category
+                    </th>
+                    <th>
+                        Quantity
+                    </th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            <img src="~/ProductImage/@item.ProductPicture" style="height: 100px; width: 100px; border-radius: 50%;" />
+                        </td>
+
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ProductName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ProductPrice)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ProductDescription)
+                        </td>
+
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Category.LongName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ProductQuantity)
+                        </td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-success btn-sm">Edit</a>
+                            <!--
+                                                        <a href="javascript:void(0)" onclick="confirmDelete('@item.Id')" class="btn btn-sm btn-danger">Delete</a>
+                            -->
+                                                    </td>
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+                        
+@section Scripts {
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script>
+        function confirmDelete(id) {
+            swal({
+                title: "Are you sure?",
+                text: "You want to Delete this Product",
+                type: "warning",
+                buttons: true,
+                dangerMode: true,
+            }).then((willDelete) => {
+                if (willDelete) {
+                    deleteProduct(id);
+                } else {
+                    swal("Your imaginary file is safe!");
+                }
+            });
+        }
+
+        function deleteProduct(id) {
+            $.ajax({
+                url: "/Products/Delete",
+                type: "POST",
+                data: {
+                    id: id
+                },
+                dataType: "json",
+                success: function (response) {
+                    if (response.success) {
+                        swal("Done!", "It was successfully deleted!", "success").then(() => {
+                            window.location.href = '../Products/Index';
+                        });
+                    } else {
+                        swal("Error deleting!", response.message, "error");
+                    }
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    swal("Error deleting!", "Please try again", "error");
+                }
+            });
+        }
+
+
+
+    </script>
+   
+}
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+

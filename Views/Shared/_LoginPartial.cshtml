@@ -1,0 +1,46 @@
+﻿<!--
+Topic Name: Electronics Store
+Project Name: PcPulse
+Group Name: SoftByte
+Group Members:
+    Shree Dhar Acharya: 8899288
+    Karamjot Singh: 8869324
+    Prashant Sahu: 8877584
+    Jovan Sandhu: 8873660
+
+Description:
+- This partial view renders the user authentication status in the navigation bar.
+
+Dependencies:
+- Microsoft.AspNetCore.Identity
+- PcPulse.Areas.Identity.Data
+
+Injected Services:
+- SignInManager<ApplicationUser>
+- UserManager<ApplicationUser>
+
+Functionality:
+- Displays a greeting message with the user's name and a logout button if the user is signed in.
+- If the user is not signed in, nothing is displayed.
+
+-->
+@using Microsoft.AspNetCore.Identity
+@using PcPulse.Areas.Identity.Data
+
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+<ul class="navbar-nav">
+@if (SignInManager.IsSignedIn(User))
+{
+    <li class="nav-item">
+        <a id="manage" class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @UserManager.GetUserName(User)!</a>
+    </li>
+    <li class="nav-item">
+        <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+            <button id="logout" type="submit" class="nav-link btn btn-link text-dark">Logout</button>
+        </form>
+    </li>
+}
+
+</ul>

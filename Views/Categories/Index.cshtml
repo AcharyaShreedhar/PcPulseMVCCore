@@ -1,0 +1,121 @@
+﻿<!--
+Topic Name: Electronics Store
+Project Name: PcPulse
+Group Name: SoftByte
+Group Members:
+    Shree Dhar Acharya: 8899288
+    Karamjot Singh: 8869324
+    Prashant Sahu: 8877584
+    Jovan Sandhu: 8873660
+
+Description:
+- This page displays a list of categories in the Electronics Store application.
+- Users can view the category ID, short name, and long name of each category.
+- Users can also edit or delete categories using the provided action buttons.
+- The delete action prompts users with a confirmation dialog before deleting a category.
+- Upon successful deletion, the page is refreshed to reflect the updated list of categories.
+-->
+@model IEnumerable<PcPulse.Models.Category>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<div>
+    <h4 class="text-center">List Of Categories</h4>
+</div>
+<div class="content-wrap mt-5">
+    <div class="mb-4">
+        <div class="d-flex justify-content-between p-0">
+            <h3 class="secondary-heading mb-3" style="float: left">List Of Categories</h3>
+            <a asp-action="Create" style="float: right;" class="btn btn-primary btn-sm text-center p-3">Add New Category</a>
+        </div>
+        <hr class="mb-5" />
+        <table class="table table-striped">
+            <thead>
+                <tr class="table-info">
+                    <th>Catagory Id</th>
+                    <th>Short Name</th>
+                    <th>Long Name</th>
+                    <th>Action</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.ShortName</td>
+                        <td>@item.LongName</td>
+
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-success">Edit</a>
+                            <!-- 
+                                <a href="javascript:void(0)" onclick="confirmDelete('@item.Id')" class="btn btn-sm btn-danger">Delete</a>
+                                -->
+
+                        </td>
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+</div>
+@section Scripts {
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script>
+        function confirmDelete(id) {
+            swal({
+                title: "Are you sure?",
+                text: "You want to Delete this category",
+                type: "warning",
+                buttons: true,
+                dangerMode: true,
+            }).then((willDelete) => {
+                if (willDelete) {
+                    deleteCategory(id);
+                } else {
+                    swal("Your imaginary file is safe!");
+                }
+            });
+        }
+
+        function deleteCategory(id) {
+            $.ajax({
+                url: "/Categories/Delete",
+                type: "POST",
+                data: {
+                    id: id
+                },
+                dataType: "json",
+                success: function (response) {
+                    if (response.success) {
+                        swal("Done!", "It was successfully deleted!", "success").then(() => {
+                            window.location.href = '../Categories/Index';
+                        });
+                    } else {
+                        swal("Error deleting!", response.message, "error");
+                    }
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    swal("Error deleting!", "Please try again", "error");
+                }
+            });
+        }
+
+
+
+    </script>
+}
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+

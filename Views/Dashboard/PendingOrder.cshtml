@@ -1,0 +1,86 @@
+﻿<!--
+Topic Name: Electronics Store
+Project Name: PcPulse
+Group Name: SoftByte
+Group Members:
+    Shree Dhar Acharya: 8899288
+    Karamjot Singh: 8869324
+    Prashant Sahu: 8877584
+    Jovan Sandhu: 8873660
+
+Description:
+- This page displays pending orders for users in the Electronics Store application.
+- It shows the order number, customer name, email, state/city, date, order status, and provides an action button to deliver the pending orders.
+-->
+@model IEnumerable<PcPulse.ViewModel.OrderViewModel>
+
+@{
+    ViewData["Title"] = "PendingOrder";
+}
+<div>
+    <h4 class="text-center">User's Pending Order</h4>
+</div>
+<div class="content-wrap mt-5">
+    <div class="mb-4">
+        <div class="table-responsive">
+            <table class="table table-responsive">
+                <thead>
+                    <tr class="table-info">
+                        <th>Order#</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>State/City</th>
+                        <th>Date</th>
+                        <th>Status</th>
+
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+
+                    {
+                        <tr>
+                            <td>@item.OrderNumber</td>
+                            <td>@(item.FirstName + " " + item.LastName)</td>
+                            <td>
+                                <b>Email:</b>
+                                @item.CustomerEmail
+                                <br />
+                                <b>Phone#</b>
+                                <br />
+                                @item.MobileNumber
+                            </td>
+                            <td>
+                                <b>State</b>
+                                <br />
+                                @item.Country
+                                <br />
+                                <b>City</b>
+                                <br />
+                                @item.City
+                            </td>
+                            <td>@item.OrderDate</td>
+
+                            <td>@item.OrderStatus</td>
+
+                            <td>
+                                <a asp-action="ClearPendingOrder" asp-route-id="@item.orderid" class="btn btn-info btn-sm">Deliver</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+

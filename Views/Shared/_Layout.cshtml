@@ -1,0 +1,232 @@
+﻿<!--
+    Topic Name: Electronics Store
+    Project Name: PcPulse
+    Group Name: SoftByte
+    Group Members:
+        Shree Dhar Acharya: 8899288
+        Karamjot Singh: 8869324
+        Prashant Sahu: 8877584
+        Jovan Sandhu: 8873660
+
+    This is the main layout for the PcPulse website.
+    It includes the header, content area, and footer.
+
+    Header:
+    - Displays the website logo and navigation menu.
+    - The navigation menu changes based on the user's role.
+
+    Content:
+    - Renders the body of each page.
+
+    Footer:
+    - Displays copyright information and group details.
+
+    External Dependencies:
+    - Bootstrap CSS
+    - Font Awesome CSS
+    - Google Fonts
+    - Dropzone CSS
+    - Bootstrap JS
+    - Font Awesome JS
+    - jQuery
+    - Notyf component
+-->
+@using Microsoft.AspNetCore.Identity
+@using PcPulse.Areas.Identity.Data
+
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- custom styling -->
+    <link rel="stylesheet" href="~/CustomerSide/assets/css/style.css" />
+    <!-- bootstrap  -->
+    <link rel="stylesheet" href="~/CustomerSide/assets/css/bootstrap.min.css" />
+    <!-- icons -->
+    <link rel="stylesheet" href="~/CustomerSide/assets/icons/fontawesome/css/all.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+
+    <!-- dropzone -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.2/dropzone.min.css" rel="stylesheet">
+
+    <title>PcPulse</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="header">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="/Home/Index">
+                        <img src="~/CustomerSide/assets/media/images/logo.png" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse ms-5" id="navbarNav">
+                        <ul class="navbar-nav pcpulse-nav">
+                            @if (User.IsInRole("User"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" asp-action="Index" asp-controller="Home">Homepage</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-action="Product" asp-controller="Home">Product</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/Home/Cart">Cart</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/Home/OrderHistory">Order History</a>
+                                </li>
+
+                                <li>
+                                    <a class="nav-link" href="/Home/Logout">Logout</a>
+                                </li>
+                            }
+                            else if (User.IsInRole("SuperAdmin"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-action="DashboardIndex" asp-controller="Dashboard">Dashboard</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-action="Index" asp-controller="Categories">Category</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-action="Index" asp-controller="Products">Product</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-action="PendingOrder" asp-controller="Dashboard">Pending Order</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-action="DeliverOrder" asp-controller="Dashboard">Deliver Order</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-action="Manageuser" asp-controller="Dashboard">Manage user</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/Home/Logout">Logout</a>
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" asp-action="Index" asp-controller="Home">Homepage</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-action="Product" asp-controller="Home">Product</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/Home/Cart">Cart</a>
+                                </li>
+
+                                <li>
+                                    <a class="nav-link" href="/Identity/Account/Login">Login</a>
+                                </li>
+                            }
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <div class="content">
+        @RenderBody()
+    </div>
+
+    <footer>
+        <div class="footer">
+            <div class="text-center">
+                <p class="copyright-p">&copy; 2024 PcPulse. All Right Reserved!</p>
+            </div>
+            <hr>
+            <div class="container justify-content-around align-items-center">
+                <div> <p class="foooter-p text-center mb-4">Group Name : <span><strong>SoftByte</strong></span></p></div>
+                <div class="row m-0">
+                    <div class="col-md-3 ml-3">
+                        <div class="text-center">
+                            <p class="foooter-p text-start"><span>Shree Dhar Acharya</span></p>
+                            <p class="foooter-p text-start"><span>8899288</span></p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="text-center">
+                            <p class="foooter-p text-start">
+                                <span>
+                                    Karamjot Singh
+
+                                </span>
+                            </p>
+                            <p class="foooter-p text-start">
+                                <span>
+
+                                    8869324
+
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="text-center">
+                            <p class="foooter-p text-start">
+                                <span>
+
+                                    Prashant Sahu
+
+                                </span>
+                            </p>
+                            <p class="foooter-p text-start">
+                                <span>
+
+                                    8877584
+
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="text-center">
+                            <p class="foooter-p text-start">
+                                <span>
+
+                                    Jovan Sandhu
+                                </span>
+                            </p>
+                            <p class="foooter-p text-start">
+                                <span>
+
+                                    8873660
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/CustomerSide/assets/icons/fontawesome/js/all.min.js"></script>
+    <script src="~/CustomerSide/assets/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    @await Component.InvokeAsync("Notyf");
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+
+</html>

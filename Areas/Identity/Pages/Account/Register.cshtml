@@ -1,0 +1,91 @@
+﻿@*
+Topic Name: Electronics Store
+Project Name: PcPulse
+Group Name: SoftByte
+Group Members:
+    Shree Dhar Acharya: 8899288
+    Karamjot Singh: 8869324
+    Prashant Sahu: 8877584
+    Jovan Sandhu: 8873660
+
+Description:
+- This Razor page handles user registration functionality.
+- Users can input their first name, last name, email, select a role, password, and confirm password to register.
+*@
+
+@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<div class="content-wrap w-50 mx-auto">
+    <div class="mb-4">
+        <h3 class="secondary-heading text-center">Register</h3>
+    </div>
+    <hr class="mb-5" />
+    <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="mb-3 row">
+            <label for="inputPassword" class="col-sm-4 col-form-label">First Name</label>
+            <div class="col-sm-8">
+                <input asp-for="Input.FirstName" type="text" class="form-control" placeholder="First Name">
+                <span asp-validation-for="Input.FirstName" class="text-danger mt-2"></span>
+
+            </div>
+        </div>
+        <div class="mb-3 row">
+            <label for="inputPassword" class="col-sm-4 col-form-label">Last Name</label>
+            <div class="col-sm-8">
+                <input asp-for="Input.LastName" type="text" class="form-control" placeholder="Last Name">
+                <span asp-validation-for="Input.LastName" class="text-danger mt-2"></span>
+            </div>
+        </div>
+        <div class="mb-3 row">
+            <label for="inputPassword" class="col-sm-4 col-form-label">Email</label>
+            <div class="col-sm-8">
+                <input asp-for="Input.Email" type="email" class="form-control" placeholder="Email">
+                <span asp-validation-for="Input.Email" class="text-danger mt-2"></span>
+            </div>
+        </div>
+        <div class="mb-3 row">
+            <label for="inputPassword" class="col-sm-4 col-form-label">Select Role</label>
+            <div class="col-sm-8">
+                <select asp-for="Input.SelectRole" class="form-control">
+                    <option value="User"> User</option>
+                    <option value="SuperAdmin"> SuperAdmin</option>
+                </select>
+
+            </div>
+        </div>
+        <div class="mb-3 row">
+            <label for="inputPassword" class="col-sm-4 col-form-label">Password</label>
+            <div class="col-sm-8">
+                <input asp-for="Input.Password" type="password" class="form-control" placeholder="Password">
+                <span asp-validation-for="Input.Password" class="text-danger mt-2"></span>
+            </div>
+        </div>
+        <div class="mb-4 row">
+            <label for="inputPassword" class="col-sm-4 col-form-label">Confirm Password</label>
+            <div class="col-sm-8">
+                <input asp-for="Input.ConfirmPassword" type="password" class="form-control" placeholder="Confirm Password">
+                <span asp-validation-for="Input.ConfirmPassword" class="text-danger mt-2"></span>
+            </div>
+        </div>
+
+        <div class="mb-3 row">
+            <span class="col-sm-4"></span>
+            <div class="col-sm-8">
+                <button id="registerSubmit" type="submit" class="btn card-button">Register</button>
+            </div>
+        </div>
+    </form>
+</div>
+<br />
+<br />
+<br />
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

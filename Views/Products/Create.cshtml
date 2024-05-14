@@ -1,0 +1,68 @@
+﻿<!--
+Topic Name: Electronics Store
+Project Name: PcPulse
+Group Name: SoftByte
+Group Members:
+    Shree Dhar Acharya: 8899288
+    Karamjot Singh: 8869324
+    Prashant Sahu: 8877584
+    Jovan Sandhu: 8873660
+
+Description:
+- This page allows users to create a new product in the PcPulse Online Store.
+- Users can input the product name, price, description, upload an image, select a category, and specify the quantity.
+- Upon submitting the form, the product details are sent to the server for processing.
+-->
+@model PcPulse.Models.Product
+
+@{
+    ViewData["Title"] = "Create";
+}
+<div class="content-wrap">
+    <div class="row p-0">
+        <div class="card p-0">
+            <div class="card-header">
+                <h3 class="secondary-heading mb-3 text-center">Add Product</h3>
+            </div>
+            <div class="card-body">
+                <form asp-action="Create" enctype="multipart/form-data">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group mt-3">
+                        <label asp-for="ProductName" class="control-label mb-2">Product Name :</label>
+                        <input asp-for="ProductName" class="form-control" placeholder=" Name" />
+                        <span asp-validation-for="ProductName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mt-3">
+                        <label asp-for="ProductPrice" class="control-label mb-2"> Product Price :</label>
+                        <input asp-for="ProductPrice" class="form-control" placeholder="Price" />
+                        <span asp-validation-for="ProductPrice" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mt-3">
+                        <label asp-for="ProductDescription" class="control-label mb-2">Product Description :</label>
+                        <textarea asp-for="ProductDescription" class="form-control" rows="7" placeholder="Description">
+
+                        </textarea>
+                        <span asp-validation-for="ProductDescription" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mt-3">
+                        <label asp-for="ProductFile" class="control-label mb-2">Product File:</label>
+                        <input type="file" asp-for="ProductFile" class="form-control" required />
+                        <span asp-validation-for="ProductFile" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mt-3">
+                        <label asp-for="CategoryId" class="control-label mb-2">Product Category :</label>
+                        <select asp-for="CategoryId" class="form-control" asp-items="ViewBag.CategoryId"></select>
+                    </div>
+                    <div class="form-group mt-3">
+                        <label asp-for="ProductQuantity" class="control-label mb-2">Product Quantity :</label>
+                        <input asp-for="ProductQuantity" class="form-control" placeholder="Quantity" min="1" />
+                        <span asp-validation-for="ProductQuantity" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mt-3">
+                        <input type="submit" value="Create" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

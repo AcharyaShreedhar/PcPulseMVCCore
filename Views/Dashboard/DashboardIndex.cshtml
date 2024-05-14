@@ -1,0 +1,129 @@
+﻿<!--
+Topic Name: Electronics Store
+Project Name: PcPulse
+Group Name: SoftByte
+Group Members:
+    Shree Dhar Acharya: 8899288
+    Karamjot Singh: 8869324
+    Prashant Sahu: 8877584
+    Jovan Sandhu: 8873660
+
+Description:
+- This page serves as the dashboard for the admin of the Electronics Store application.
+- It welcomes the admin to the dashboard with a banner and a brief introduction to the store.
+- The page also showcases data visualizations for sales, customers, and products in inventory.
+- Admins can view and analyze key metrics to make informed decisions about the store's performance and operations.
+-->
+@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<div class="content-wrap">
+    <div class="PC-banner mb-3">
+        <div class="PC-banner-wrap">
+            <div class="text-center">
+                <h1 class="banner-heading">Welcome To PcPulse</h1>
+            </div>
+        </div>
+    </div>
+    
+   
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Sales</h5>
+                        
+                        <canvas id="salesChart" width="400" height="400"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Customers</h5>
+                        
+                        <canvas id="customersChart" width="400" height="400"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Products in Inventory</h5>
+                       
+                        <canvas id="inventoryChart" width="400" height="400"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    // Sales data
+    var salesData = {
+        labels: ["January", "February", "March", "April", "May", "June", "July"],
+        datasets: [{
+            label: "Sales",
+            data: [65, 59, 80, 81, 56, 55, 40],
+            fill: false,
+            borderColor: "rgb(75, 192, 192)",
+            tension: 0.1
+        }]
+    };
+
+    var salesCtx = document.getElementById('salesChart').getContext('2d');
+    var salesChart = new Chart(salesCtx, {
+        type: 'line',
+        data: salesData
+    });
+
+    // Customers data
+    var customersData = {
+        labels: ["January", "February", "March", "April", "May", "June", "July"],
+        datasets: [{
+            label: "Customers",
+            data: [10, 20, 30, 40, 50, 60, 70],
+            fill: false,
+            borderColor: "rgb(255, 99, 132)",
+            tension: 0.1
+        }]
+    };
+
+    var customersCtx = document.getElementById('customersChart').getContext('2d');
+    var customersChart = new Chart(customersCtx, {
+        type: 'line',
+        data: customersData
+    });
+
+    // Products in inventory data
+    var inventoryData = {
+        labels: ["Laptops", "Smartphones", "Accessories", "Cameras", "Headphones"],
+        datasets: [{
+            label: "Products",
+            data: [150, 200, 100, 80, 120],
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)'
+            ],
+            borderColor: [
+                'rgba(255, 99, 132, 1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)'
+            ],
+            borderWidth: 1
+        }]
+    };
+
+    var inventoryCtx = document.getElementById('inventoryChart').getContext('2d');
+    var inventoryChart = new Chart(inventoryCtx, {
+        type: 'bar',
+        data: inventoryData
+    });
+</script>
+
